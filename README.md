@@ -68,12 +68,7 @@ Se definió la hoja `Opciones` como tabla de configuración con objetivos por pr
 ### Paso 2 — Creación de Tablas Dinámicas
 Se construyeron **4 Tablas Dinámicas** independientes en la hoja `Control Objetivos`, cada una enfocada en una dimensión de análisis diferente (vendedor, producto, tiempo).
 
-> 📸 **[FOTO: Vista general de la hoja "Control Objetivos" mostrando las 4 tablas dinámicas]**
->
-> *Cómo agregarla: Abre el archivo en Excel → toma un screenshot de la hoja completa → guarda la imagen como `dashboard_general.png` en una carpeta `/assets/` dentro de tu repositorio → reemplaza esta línea con:*
-> ```markdown
-> ![Dashboard General](assets/dashboard_general.png)
-> ```
+> ![Dashboard General](assets/paso2.png)
 
 ### Paso 3 — Cálculo de estados con lógica condicional
 Se implementaron columnas de **"Estado"** usando fórmulas `SI()` y comparaciones contra los objetivos de la hoja `Opciones`. El sistema de semáforo usa:
@@ -84,22 +79,12 @@ Se implementaron columnas de **"Estado"** usando fórmulas `SI()` y comparacione
 ### Paso 4 — Indicadores de comparación interanual
 Se creó la columna `% KG Total Año Anterior` para calcular qué porcentaje del volumen anterior se está repitiendo en el año actual, permitiendo detectar caídas de rendimiento por vendedor.
 
-> 📸 **[FOTO: Tabla de variación año anterior con los porcentajes por vendedor]**
->
-> *Cómo agregarla: Haz zoom en la tabla de variación interanual → captura la imagen → guárdala como `variacion_interanual.png` en `/assets/` → usa:*
-> ```markdown
-> ![Variación Interanual](assets/variacion_interanual.png)
-> ```
+> ![Variación Interanual](assets/Paso4.png)
 
 ### Paso 5 — Control de evolución mensual
 Se incluyó una tabla dinámica de seguimiento mes a mes con **acumulado progresivo**, útil para ver si el ritmo de ventas es suficiente para alcanzar el objetivo anual.
 
-> 📸 **[FOTO: Tabla de evolución mensual acumulada]**
->
-> *Cómo agregarla: Captura la tabla mensual → guarda como `evolucion_mensual.png` en `/assets/` → usa:*
-> ```markdown
-> ![Evolución Mensual](assets/evolucion_mensual.png)
-> ```
+> ![Evolución Mensual](assets/paso5.png)
 
 ---
 
@@ -119,6 +104,3 @@ Se incluyó una tabla dinámica de seguimiento mes a mes con **acumulado progres
 
 Este proyecto demuestra cómo Excel, bien estructurado, puede actuar como una herramienta de Business Intelligence básica. El sistema de semáforo, la comparación interanual y el acumulado mensual son patrones clásicos en reportes ejecutivos del mundo real.
 
----
-
-*Proyecto de práctica — Análisis de datos y reporting con Excel*
